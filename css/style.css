@@ -265,8 +265,8 @@ nav .right .slide-nav .close-btn {
   position: absolute;
 }
 .index_page_2 .icon img{
-  width: 55px;
-  height: 45px;
+  width: 40px;
+  height: 47px;
 }
 .index_page_2 .text {
   position: absolute;
@@ -296,6 +296,9 @@ nav .right .slide-nav .close-btn {
   100% {
     transform: rotate(0deg);
   }
+}
+.index_page_2 .code-snap {
+  margin-top: 3vw;
 }
 
 /* INDEX PAGE 3 START */
