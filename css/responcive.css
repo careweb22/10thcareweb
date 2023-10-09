@@ -137,7 +137,7 @@
     }
     .index_page_1 {
         padding-top: 0vw;
-        min-height: 90vh;
+        min-height: 95vh;
     }
     .links {
         display: none;
@@ -207,11 +207,18 @@
     .index_page_5 .box {
         padding: 20px;
     }
+    .index_page_4 .right .box1 {
+        margin-bottom: 30px;
+    }
+    .index_page_4 .right .box3 {
+        margin-top: 30px;
+    }
     .index_page_5 p {
         font-size: 4.5vw;
     }
     footer {
-        padding: 20px 3px;
+        padding: 10px 3px;
+        margin-top: 30px;
     }
     footer .container-holder {
         padding: 9vw 5vw 12vw;
@@ -221,12 +228,15 @@
         font-size: 7vw;
         line-height: 7vw;
     }
+    .index_page_6 {
+        padding-top: 10vw;
+    }
 }
 
 @media only screen and (max-width: 380px) {
     .index_page_5 {
         min-height: 100vh;
-        padding-top: 100vw;
+        padding-top: 75vw;
         text-align: center;
     }
 }
