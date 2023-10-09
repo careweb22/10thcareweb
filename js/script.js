@@ -121,17 +121,17 @@ pageLeftRightAnimation()
 // index page 4 fixed scroll Animation
 function myFunction(x) {
   if (x.matches) {
-    gsap.to(".index_page_4 .box", {
+    gsap.to(".index_page_4 .right .box", {
       scrollTrigger: {
-        trigger: ".index_page_4 .main-box",
-        scroller: "body",
+        trigger: ".index_page_4",
+        scroller: "#main",
         pin: true,
-        start: "top -20%",
+        start: "top -40%",
         end: "bottom 0",
         endTrigger: ".box3",
         scrub: true,
       },
-      y: "-217%",
+      y: "-240%",
     });
   } else {
     gsap.to(".index_page_4 .right .box", {

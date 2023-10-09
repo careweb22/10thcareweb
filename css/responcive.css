@@ -1,23 +1,203 @@
 @media only screen and (max-width: 1199px) {
-}
-
-@media only screen and (max-width: 1000px) {
+    .index_page_1 {
+        padding-top: 11vw;
+    }
+    .index_page_1 .secondary {
+        margin-top: 6vw;
+    }
 }
 
 @media only screen and (max-width: 999px) {
+    .grid-two-col,
+    .grid-three-col,
+    .index_page_4 .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .index_page_1 {
+        padding-top: 17vw;
+    }
+    .index_page_1 .secondary {
+        margin-top: 8vw;
+    }
+    .index_page_1 h1 {
+        font-size: 7vw;
+        line-height: 6.8vw;
+    }
+    .index_page_2 h2,
+    .index_page_4 h2,
+    .index_page_5 h3,
+    .index_page_6 h4 {
+        font-size: 4.5vw;
+        line-height: 5vw;
+    }
+    .index_page_4 .right .box3 {
+        margin-top: 80px;
+    }
+    .index_page_4 .right .box h3 {
+        font-size: 5vw;
+        line-height: 3vw;
+    }
+    .index_page_5 .box {
+        padding: 30px 90px;
+    }
+    .index_page_5 h4 {
+        font-size: 3vw;
+    }
+    .basic, .unlimited {
+        margin-top: 3vw;
+    }
+    .index_page_7 .right form {
+        margin-top: 4vw;
+    }
+    footer .info-bottom {
+        margin-top: 30px;
+    }
+    footer .info-bottom span {
+        margin-top: 20px;
+    }
+    footer .container-holder .grid-two-col {
+        margin-top: 0px;
+    }
+    footer .info-bottom .hide {
+        display: none;
+    }
+
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+    .index_page_1 {
+        padding-top: 25vw;
+    }
+    .index_page_1 div {
+        padding: 0;
+    }
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+    .index_page_1 h1 {
+        font-size: 8vw;
+        line-height: 8vw;
+    }
+    .index_page_2 h2, 
+    .index_page_4 h2, 
+    .index_page_5 h3, 
+    .index_page_6 h4 {
+        font-size: 5.5vw;
+        line-height: 6.2vw;
+    }   
+    .index_page_2 .icon img {
+        width: 32px;
+        height: 35px;
+        margin-left: 3px;
+    }
+    .index_page_2 .code-snap {
+        margin-top: 6vw;
+    }
+    .index_page_3 ul li {
+        font-size: 55px;
+        font-weight: 600;
+        word-wrap: no-wrap;
+        padding: 0 50px;
+    }
+    .index_page_5 .box {
+        padding: 30px 50px;
+    }
+    footer h4 {
+        font-size: 3.5vw;
+        line-height: 4vw;
+    }
+    footer h5 {
+        font-size: 3.1vw;
+    }
+    footer .info-bottom {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .social-menu {
+        margin-top: 30px;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+    .links {
+        display: none;
+    }
+    nav .right .menu {
+        display: block;
+        scale: 1;
+    }
+    .container {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
+    .heading {
+        font-size: 18px;
+    }
+    p, span {
+        font-size: 17px;
+    }
+    .index_page_1 {
+        padding-top: 30vw;
+    }
+    nav .right .menu {
+        padding: 7px 12px;
+    }
+    .index_page_1 h1 {
+        font-size: 8.5vw;
+        line-height: 8vw;
+    }
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+    .index_page_2 h2, 
+    .index_page_4 h2, 
+    .index_page_5 h3, 
+    .index_page_6 h4,
+    .index_page_7 .left h4 {
+        font-size: 7vw;
+        line-height: 8vw;
+        word-spacing: 10px;
+    }
+    .index_page_4 .right .box {
+        padding: 80px 40px;
+    }
+    .index_page_4 .right .box h3 {
+        font-size: 6.2vw;
+        line-height: 0vw;
+    }
+    .index_page_4 .right .box3 {
+        margin-top: 00px;
+    }
+    .index_page_5 .box {
+        padding: 20px;
+    }
+    .index_page_5 h4 {
+        font-size: 4vw;
+    }
+    .index_page_5 {
+        min-height: 90vh;
+        text-align: center;
+        padding-top: 6vw;
+    }
+    footer {
+        padding: 45px 10px;
+    }
+    footer .container-holder {
+        padding: 5vw 10vw 9vw;
+    }
+    footer h4,
+    footer h5 {
+        font-size: 5vw;
+    }
 }
 
 @media only screen and (max-width: 360px) {
-}
-
-@media only screen and (max-width: 319px) {
 }
