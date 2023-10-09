@@ -123,15 +123,10 @@ function myFunction(x) {
   if (x.matches) {
     gsap.to(".index_page_4 .right .box", {
       scrollTrigger: {
-        trigger: ".index_page_4",
-        scroller: "#main",
-        pin: true,
-        start: "top -40%",
-        end: "bottom 0",
-        endTrigger: ".box3",
-        scrub: true,
+        pin: false,
+        scrub: false,
       },
-      y: "-240%",
+      y: "0%",
     });
   } else {
     gsap.to(".index_page_4 .right .box", {

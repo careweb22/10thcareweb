@@ -31,8 +31,13 @@
         font-size: 4.5vw;
         line-height: 5vw;
     }
+    .index_page_4 .right {
+        width: 100%;
+        height: 200vh;
+        overflow-y: visible;
+    }
     .index_page_4 .right .box3 {
-        margin-top: 80px;
+        margin-top: 60px;
     }
     .index_page_4 .right .box h3 {
         font-size: 5vw;
@@ -41,7 +46,7 @@
     .index_page_5 .box {
         padding: 30px 90px;
     }
-    .index_page_5 h4 {
+    .index_page_5 p {
         font-size: 3vw;
     }
     .basic, .unlimited {
@@ -122,7 +127,16 @@
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 590px) {
+    .container {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+    .index_page_1 {
+        padding-top: 10vw;
+        min-height: 100vh;
+        text-align: start;
+    }
     .links {
         display: none;
     }
@@ -130,21 +144,50 @@
         display: block;
         scale: 1;
     }
-    .container {
-        max-width: 90vw;
-        margin: 0 auto;
+    nav .right .menu {
+        padding: 7px 12px;
+        position: absolute;
+        right: 5%;
+        top: 22%;
+    }
+    nav .left a {
+        font-size: 18px;
+    }
+    nav .left {
+        height: 20px;
+    }
+    .secondary,
+    .code-snap{
+        display: none;
+    }
+    .index_page_1 div {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .heading {
+        margin: 20px 0;
+    }
+    .index_page_1 h1 {
+        font-size: 10vw;
+        line-height: 10.2vw;
+    }
+    .index_page_1 a {
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .index_page_2 .container {
+        min-height: 85vh;
+        padding-top: 0vw;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .heading {
+    /* .heading {
         font-size: 18px;
     }
     p, span {
         font-size: 17px;
-    }
-    .index_page_1 {
-        padding-top: 30vw;
     }
     nav .right .menu {
         padding: 7px 12px;
@@ -179,7 +222,7 @@
     .index_page_5 .box {
         padding: 20px;
     }
-    .index_page_5 h4 {
+    .index_page_5 p {
         font-size: 4vw;
     }
     .index_page_5 {
@@ -196,7 +239,7 @@
     footer h4,
     footer h5 {
         font-size: 5vw;
-    }
+    } */
 }
 
 @media only screen and (max-width: 360px) {

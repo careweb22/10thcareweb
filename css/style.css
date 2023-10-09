@@ -191,7 +191,6 @@ nav .right .slide-nav .close-btn {
 
 /* INDEX PAGE 1 START */
 .index_page_1 {
-  background: var(--white);
   min-height: 100vh;
   display: flex;  
   justify-content: center;
@@ -388,7 +387,6 @@ nav .right .slide-nav .close-btn {
 .index_page_5 {
   min-height: 100vh;
   text-align: center;
-  padding-top: 6vw;
 }
 .index_page_5 a {
   color: var(--color-white);
@@ -398,8 +396,8 @@ nav .right .slide-nav .close-btn {
   line-height: 4vw;
   margin-bottom: 40px;
 }
-.index_page_5 h4 {
-  font-size: 2vw;
+.index_page_5 p {
+  font-size: 1.6vw;
 }
 .index_page_5 .box {
   border-top: 2px solid var(--color-light);
@@ -431,7 +429,7 @@ nav .right .slide-nav .close-btn {
 
 /*  INDEX PAGE 6 START */
 .index_page_6 {
-  padding-top: 8vw;
+  padding-top: 2vw;
   text-align: center;
   color: var(--black);
 }
