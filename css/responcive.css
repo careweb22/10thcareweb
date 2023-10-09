@@ -128,12 +128,15 @@
 }
 
 @media only screen and (max-width: 590px) {
+    p, span {
+        font-size: 17px;
+    }
     .container {
         max-width: 90vw;
         margin: 0 auto;
     }
     .index_page_1 {
-        padding-top: 10vw;
+        padding-top: 0vw;
         min-height: 100vh;
     }
     .links {
@@ -179,67 +182,51 @@
         min-height: 85vh;
         padding-top: 0vw;
     }
-}
-
-@media only screen and (max-width: 480px) {
-    /* .heading {
-        font-size: 18px;
-    }
-    p, span {
-        font-size: 17px;
-    }
-    nav .right .menu {
-        padding: 7px 12px;
-    }
-    .index_page_1 h1 {
-        font-size: 8.5vw;
-        line-height: 8vw;
-    }
-    .icon {
-        width: 30px;
-        height: 30px;
-    }
     .index_page_2 h2, 
     .index_page_4 h2, 
     .index_page_5 h3, 
     .index_page_6 h4,
     .index_page_7 .left h4 {
-        font-size: 7vw;
-        line-height: 8vw;
+        font-size: 8vw;
+        line-height: 10vw;
         word-spacing: 10px;
     }
+    .index_page_3 {
+        display: none;
+    }
+    .index_page_4 {
+        padding-top: 23vw;
+    }
     .index_page_4 .right .box {
-        padding: 80px 40px;
+        padding: 68px 30px;
     }
     .index_page_4 .right .box h3 {
-        font-size: 6.2vw;
+        font-size: 7vw;
         line-height: 0vw;
-    }
-    .index_page_4 .right .box3 {
-        margin-top: 00px;
     }
     .index_page_5 .box {
         padding: 20px;
     }
     .index_page_5 p {
-        font-size: 4vw;
-    }
-    .index_page_5 {
-        min-height: 90vh;
-        text-align: center;
-        padding-top: 6vw;
+        font-size: 4.5vw;
     }
     footer {
-        padding: 45px 10px;
+        padding: 50px 13px;
     }
     footer .container-holder {
-        padding: 5vw 10vw 9vw;
+        padding: 6vw 10vw 9vw;
     }
     footer h4,
     footer h5 {
-        font-size: 5vw;
-    } */
+        font-size: 7vw;
+        line-height: 7vw;
+    }
 }
 
 @media only screen and (max-width: 380px) {
+    .index_page_5 {
+        min-height: 100vh;
+        padding-top: 135vw;
+        text-align: center;
+    }
 }
