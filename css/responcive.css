@@ -137,7 +137,7 @@
     }
     .index_page_1 {
         padding-top: 0vw;
-        min-height: 100vh;
+        min-height: 90vh;
     }
     .links {
         display: none;
@@ -211,10 +211,10 @@
         font-size: 4.5vw;
     }
     footer {
-        padding: 50px 13px;
+        padding: 20px 3px;
     }
     footer .container-holder {
-        padding: 6vw 10vw 9vw;
+        padding: 9vw 5vw 12vw;
     }
     footer h4,
     footer h5 {
@@ -226,7 +226,7 @@
 @media only screen and (max-width: 380px) {
     .index_page_5 {
         min-height: 100vh;
-        padding-top: 135vw;
+        padding-top: 100vw;
         text-align: center;
     }
 }
