@@ -135,7 +135,6 @@
     .index_page_1 {
         padding-top: 10vw;
         min-height: 100vh;
-        text-align: start;
     }
     .links {
         display: none;
@@ -169,8 +168,8 @@
         margin: 20px 0;
     }
     .index_page_1 h1 {
-        font-size: 10vw;
-        line-height: 10.2vw;
+        font-size: 14vw;
+        line-height: 14vw;
     }
     .index_page_1 a {
         display: inline-block;
@@ -242,5 +241,5 @@
     } */
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 380px) {
 }
